@@ -1,22 +1,22 @@
 <resources>
-    <string name="app_name">Login Template</string>
-    <string name="hint_username">Username</string>
-    <string name="hint_password">Password</string>
-    <string name="button_sign_in">Sign in</string>
-    <string name="button_sign_up">Sign up</string>
-    <string name="button_send">Send</string>
-    <string name="text_forgot_password">Forgot password?</string>
-    <string name="text_signin_message">Hello, sign in to your account</string>
-    <string name="text_signin_social_media">Or Sign in using social media</string>
-    <string name="text_signup_social_media">Or Sign up using social media</string>
-    <string name="text_signin_signup">Don\'t have an account? <b>Sign up</b></string>
-    <string name="text_signup_terms">By signing up, you agree to our <b>terms and conditions</b></string>
-    <string name="text_signup_message">Hello, let\'s set up your account</string>
+    <string name="app_name">Persistencia Template</string>
+    <string name="hint_username">Nombre de Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="button_sign_in">Ingresar</string>
+    <string name="button_sign_up">Registrarse</string>
+    <string name="button_send">Enviar </string>
+    <string name="text_forgot_password">¿Se te olvidó tu contraseña?</string>
+    <string name="text_signin_message">Hola, acceda a su cuenta</string>
+    <string name="text_signin_social_media">O inicia sesión usando las redes sociales</string>
+    <string name="text_signup_social_media">O inicia sesión usando las redes sociales</string>
+    <string name="text_signin_signup">¿No tienes una cuenta? <b>Registrate</b></string>
+    <string name="text_signup_terms">Al registrarte, aceptas nuestros <b> términos y condiciones</b></string>
+    <string name="text_signup_message">Hola, configuremos tu cuenta</string>
 
-    <string name="text_forgot_password_title">Forgot password? No worries</string>
-    <string name="text_forgot_password_message">We will send you a link to reset your password</string>
+    <string name="text_forgot_password_title">¿Se te olvidó tu contraseña? No hay problema</string>
+    <string name="text_forgot_password_message">Te enviaremos un enlace para restablecer tu contraseña</string>
 
-    <string name="hint_email">Email</string>
-    <string name="hint_phone">Phone</string>
-    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_email">Correo Electrónico</string>
+    <string name="hint_phone">Celular</string>
+    <string name="hint_confirm_password">Confirmar Contraseña</string>
 </resources>
