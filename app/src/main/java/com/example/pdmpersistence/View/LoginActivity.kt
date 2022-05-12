@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.pdmpersistence.Persistencia.APIService
 import com.example.pdmpersistence.Persistencia.AppDatabase
+import com.example.pdmpersistence.Persistencia.Models.Client
 import com.example.pdmpersistence.Persistencia.ResponseAPI
 import com.example.pdmpersistence.R
+import org.jetbrains.anko.doAsync
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.Query
@@ -29,16 +31,17 @@ class LoginActivity : AppCompatActivity() {
             .build()
     }
 
-    /*private fun searchByName(query: String){
+    private fun searchByName(query: String) {
+        doAsync {
             val call = getRetrofit().create(APIService::class.java).getById("$query/id").execute()
             val responseAPI = call.body() as ResponseAPI
-            if (client.status == "success") {
-                initCharacter(responseAPI)
+            val client = Client()
+            if (client.email != null) {
+                //initCharacter(responseAPI)
             } else {
-                showErrorDialog()
+                //showErrorDialog()
             }
-            hideKeyboard()
-            }
+            //hideKeyboard()
         }
-    }*/
+    }
 }
